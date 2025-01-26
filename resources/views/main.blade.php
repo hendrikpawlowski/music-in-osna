@@ -10,17 +10,17 @@
         </nav>
     </div> --}}
     <div class="relative">
-        <header class="mx-auto max-w-4xl flex items-center lg:h-130 px-4 sm:px-6 py-8 sm:py-16 lg:px-8">
+        <header class="mx-auto max-w-4xl flex items-center lg:h-100 px-4 sm:px-6 py-8 sm:py-16 lg:px-8">
             <div class="">
-                <h1 class="max-w-2xl text-5xl font-semibold tracking-tight text-balance text-gray-900 lg:text-7xl">
+                <h1 class="max-w-2xl text-5xl font-semibold tracking-tight text-balance text-gray-900 lg:text-6xl">
                     music in osna
                 </h1>
                 <p class="mt-6 text-base text-gray-900 max-w-2xl">Anim aute id magna aliqua ad ad non deserunt sunt.
                     Qui
                     irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
                 <div class="pt-6 block">
-                    <a href="#"
-                        class="inline-block rounded-md border border-indigo-600 transition text-indigo-600 px-4 py-3 text-sm shadow-xs hover:bg-indigo-5 hover:border-indigo-700 hover:text-indigo-800 focus-visible:outline-2 focus-visible:outline-offset-2">Submit
+                    <a href="{{ route('submit-gig') }}"
+                        class="text-sm/6 py-1.5 inline-block rounded-md border border-indigo-600 transition text-indigo-600 px-4 shadow-xs hover:bg-indigo-5 hover:border-indigo-700 hover:text-indigo-800 focus-visible:outline-2 focus-visible:outline-offset-2">Submit
                         Gig</a>
                 </div>
             </div>
