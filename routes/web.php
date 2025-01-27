@@ -13,6 +13,6 @@ Route::get('/submit-gig', function () {
 })->name('submit-gig');
 
 Route::post('/submit-gig', function (Request $request) {
-    dd($request->input('band'));
+    dd($request->input('band'), $request->input('location'), $request->input('date'));
     // dd('lol');
 })->name('submit-gig-post');

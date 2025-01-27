@@ -33,10 +33,10 @@
 
                 <div>
                     <div class="flex items-center justify-between">
-                        <label for="datetime" class="block text-sm/6 font-medium text-gray-900">Wann gehts los?</label>
+                        <label for="date" class="block text-sm/6 font-medium text-gray-900">Wann gehts los?</label>
                     </div>
                     <div class="mt-2">
-                        <input type="datetime-local" name="datetime" id="datetime"
+                        <input type="datetime-local" name="date" id="date"
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300 focus:border-indigo-600 placeholder:text-gray-400 focus:outline-none sm:text-sm/6">
                     </div>
                 </div>
